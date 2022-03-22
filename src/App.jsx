@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1>Olá React!!</h1>
+      <div>Teste de div jsx</div>
       <p>Meu primeiro App</p>
     </div>
   );
