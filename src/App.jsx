@@ -17,6 +17,7 @@ function App() {
   function ola() {
     console.log('Olá, tudo bem?')
   }
+
   // Renderizando o componente
   return (
     <div className="App">
@@ -35,7 +36,7 @@ function App() {
       {idade >= 18 && <p>{nome} é maior de {idade}</p>}
 
       {/* renderização de listas (vetor) */}
-      {/* usando a função map do JS */}
+      {/* usando a função map do JS      */}
       <ul>
         {vetor.map((item) => (<li>{item}</li>))}
       </ul>
